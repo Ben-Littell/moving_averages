@@ -20,6 +20,10 @@ def moving_avg(data, w=None):
     return new_list
 
 
+x3 = [4 , 7, 8, 2 , 10 , 23 , 9 , 5]
+w3 = [.5, .5]
+
+
 def fading_moving_avg(data, w_list):
     output = []
     w1, w2 = w_list[0], w_list[1]
